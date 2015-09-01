@@ -34,7 +34,8 @@ build/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-!**/Libs/
+#AutoCad 2016 libs - ObjectARX2016
+!**/Libs/*
 
 *_i.c
 *_p.c

@@ -31,15 +31,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AcCoreMgd">
-      <HintPath>..\..\ObjectARX2016\inc\AcCoreMgd.dll</HintPath>
+      <HintPath>Libs\AcCoreMgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AcDbMgd">
-      <HintPath>..\..\ObjectARX2016\inc\AcDbMgd.dll</HintPath>
+      <HintPath>..\..\..\..\C#\HelloAutocadPlugIn\HelloAutocadPlugIn\Libs\AcDbMgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AcMgd">
-      <HintPath>..\..\ObjectARX2016\inc\AcMgd.dll</HintPath>
+      <HintPath>..\..\..\..\C#\HelloAutocadPlugIn\HelloAutocadPlugIn\Libs\AcMgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="GalaSoft.MvvmLight, Version=5.1.1.35049, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
@@ -128,7 +128,9 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
