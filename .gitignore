@@ -34,6 +34,8 @@ build/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+!**/Libs
+
 *_i.c
 *_p.c
 *.ilk
