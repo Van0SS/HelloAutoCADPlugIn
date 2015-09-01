@@ -6,6 +6,8 @@ Develeped to AutoCAD 2016, with API ObjectARX2016 for any CPU, in Visual Studio 
 To load in AutoCAD use command NETLOAD, and select HelloAutoCADPlugIn.dll
 Start in command line, with command CHANGEPROPERTIES
 
+To debug in AutoCAD need change application reference on yours acad.exe, and set at StartUp project.
+
 PlugIn can change:
 Layer:
 - Visibility
